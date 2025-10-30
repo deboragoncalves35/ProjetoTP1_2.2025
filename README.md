@@ -1,1 +1,1 @@
-echo "# Projeto TP1_2.2025" 
+"# Projeto TP1_2.2025" 
