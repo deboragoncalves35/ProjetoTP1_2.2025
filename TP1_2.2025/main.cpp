@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout << "Projeto TP1 rodando!" << endl;
+int main(){
+
+    cout <<"Codigo funcionando"<<endl;
     return 0;
 }

@@ -1,65 +1,62 @@
 #include "Cartao.h"
-#include <cctype> // Para isdigit()
+#include <cctype>
 
 /**
- * @brief Implementação do algoritmo de Luhn.
- * @param numero Número de cartão de 16 dígitos.
- * @return true se o número passar na verificação de Luhn.
+ * @brief Valida o cartao conforme o algoritmo de Luhn.
+ * @param numero String contendo os digitos do cartao.
+ * @return true se o numero for valido, false caso contrario.
  */
-bool Cartao::luhnValido(const string &numero) const {
+bool Cartao::validarLuhn(const string &numero) const {
     int soma = 0;
-    bool alternar = false;
+    bool dobra = false;
 
-    // percorre os dígitos de trás pra frente
-    for (int i = numero.size() - 1; i >= 0; i--) {
+    for (int i = numero.size() - 1; i >= 0; --i) {
         int digito = numero[i] - '0';
-        if (alternar) {
+        if (dobra) {
             digito *= 2;
             if (digito > 9)
                 digito -= 9;
         }
         soma += digito;
-        alternar = !alternar;
+        dobra = !dobra;
     }
 
-    // válido se a soma é múltiplo de 10
     return (soma % 10 == 0);
 }
 
 /**
- * @brief Verifica se o número do cartão possui 16 dígitos válidos e
- *        se passa na validação de Luhn.
- * @param numero Número do cartão a ser validado.
- * @throw invalid_argument Se o formato for inválido ou falhar o teste de Luhn.
+ * @brief Verifica se o cartao atende ao formato e e valido pelo Luhn.
+ * @param cartao_string Numero informado.
+ * @throw invalid_argument Se o formato ou numero forem invalidos.
  */
-void Cartao::validar(const string &numero) {
-    // Verifica se o número tem exatamente 16 caracteres numéricos
-    if (numero.size() != 16)
-        throw invalid_argument("Cartao inválido: deve conter exatamente 16 dígitos.");
-
-    for (char c : numero) {
-        if (!isdigit(static_cast<unsigned char>(c)))
-            throw invalid_argument("Cartao inválido: apenas dígitos são permitidos.");
+void Cartao::validarCartao(const string &cartao_string) {
+    if (cartao_string.size() != 16) {
+        throw invalid_argument("Cartao invalido: deve conter exatamente 16 digitos.");
     }
 
-    // Aplica o algoritmo de Luhn
-    if (!luhnValido(numero))
-        throw invalid_argument("Cartao inválido: falha no dígito verificador (algoritmo de Luhn).");
+    for (char c : cartao_string) {
+        if (!isdigit(static_cast<unsigned char>(c))) {
+            throw invalid_argument("Cartao invalido: apenas digitos sao permitidos.");
+        }
+    }
+
+    if (!validarLuhn(cartao_string)) {
+        throw invalid_argument("Cartao invalido: digito verificador incorreto (falha no algoritmo de Luhn).");
+    }
 }
 
 /**
- * @brief Define o valor do cartão após validação.
- * @param numero String contendo o número de 16 dígitos.
- * @throw invalid_argument Se o número não for válido.
+ * @brief Define o valor apos validacao.
+ * @param cartao_string Numero informado.
  */
-void Cartao::setValor(const string &numero) {
-    validar(numero);
-    this->valor = numero;
+void Cartao::setValor(const string &cartao_string) {
+    validarCartao(cartao_string);
+    valor = cartao_string;
 }
 
 /**
- * @brief Retorna o número de cartão armazenado.
- * @return String com o número do cartão.
+ * @brief Retorna o numero do cartao armazenado.
+ * @return String com o numero do cartao.
  */
 string Cartao::getValor() const {
     return valor;

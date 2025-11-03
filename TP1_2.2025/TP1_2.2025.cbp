@@ -5,9 +5,10 @@
 		<Option title="TP1_2.2025" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option virtualFolders="scr/dominio/" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/TP1_2.2025" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/TP1_2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/TP1_2.2025" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/TP1_2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,8 +32,36 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Dell/OneDrive/TP1_2.2025/src/dominio" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="../scr/dominio/Capacidade.cpp" />
+		<Unit filename="../scr/dominio/Capacidade.h" />
+		<Unit filename="../scr/dominio/Cartao.cpp" />
+		<Unit filename="../scr/dominio/Cartao.h" />
+		<Unit filename="../scr/dominio/Codigo.cpp" />
+		<Unit filename="../scr/dominio/Codigo.h" />
+		<Unit filename="../scr/dominio/Data.cpp" />
+		<Unit filename="../scr/dominio/Data.h" />
+		<Unit filename="../scr/dominio/Dinheiro.cpp" />
+		<Unit filename="../scr/dominio/Dinheiro.h" />
+		<Unit filename="../scr/dominio/Email.cpp" />
+		<Unit filename="../scr/dominio/Email.h" />
+		<Unit filename="../scr/dominio/Endereco.cpp" />
+		<Unit filename="../scr/dominio/Endereco.h" />
+		<Unit filename="../scr/dominio/Nome.cpp" />
+		<Unit filename="../scr/dominio/Nome.h" />
+		<Unit filename="../scr/dominio/Numero.cpp" />
+		<Unit filename="../scr/dominio/Numero.h" />
+		<Unit filename="../scr/dominio/Ramal.cpp" />
+		<Unit filename="../scr/dominio/Ramal.h" />
+		<Unit filename="../scr/dominio/Senha.cpp" />
+		<Unit filename="../scr/dominio/Senha.h" />
+		<Unit filename="../scr/dominio/Telefone.cpp" />
+		<Unit filename="../scr/dominio/Telefone.h" />
+		<Unit filename="../scr/dominio/dominio.h" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="scr/dominio/" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

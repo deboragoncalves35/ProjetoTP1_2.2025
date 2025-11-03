@@ -7,41 +7,40 @@ using namespace std;
 
 /**
  * @class Cartao
- * @brief Representa um número de cartão de crédito ou débito.
+ * @brief Representa um numero de cartao de credito valido.
  *
- * O número do cartão deve conter exatamente 16 dígitos numéricos e
- * passar na validação do algoritmo de Luhn. Caso contrário,
- * uma exceção é lançada.
+ * O cartao deve conter 16 digitos numericos e ser valido
+ * conforme o algoritmo de Luhn.
  */
 class Cartao {
 private:
-    string valor; ///< Número do cartão (16 dígitos).
+    string valor; ///< Armazena o numero do cartao validado.
 
     /**
-     * @brief Verifica se o valor informado é válido segundo o algoritmo de Luhn.
-     * @param numero Número do cartão a ser validado.
-     * @throw invalid_argument Se o formato ou o dígito verificador for inválido.
+     * @brief Verifica se o numero de cartao e valido pelo algoritmo de Luhn.
+     * @param numero String contendo apenas digitos.
+     * @return true se o numero for valido, false caso contrario.
      */
-    void validar(const string &numero);
+    bool validarLuhn(const string &numero) const;
 
     /**
-     * @brief Aplica o algoritmo de Luhn para verificar a validade do número.
-     * @param numero Número de cartão com 16 dígitos.
-     * @return true se o número for válido, false caso contrário.
+     * @brief Verifica se o cartao atende ao formato e validade pelo Luhn.
+     * @param cartao_string Numero do cartao.
+     * @throw invalid_argument Se o formato for invalido.
      */
-    bool luhnValido(const string &numero) const;
+    void validarCartao(const string &cartao_string);
 
 public:
     /**
-     * @brief Define o número do cartão após validação.
-     * @param numero Número de 16 dígitos numéricos.
-     * @throw invalid_argument Se o número for inválido.
+     * @brief Define o numero do cartao apos validacao.
+     * @param cartao_string Numero informado.
+     * @throw invalid_argument Se o numero for invalido.
      */
-    void setValor(const string &numero);
+    void setValor(const string &cartao_string);
 
     /**
-     * @brief Retorna o número de cartão armazenado.
-     * @return String contendo o número do cartão.
+     * @brief Retorna o numero do cartao armazenado.
+     * @return String com o numero do cartao.
      */
     string getValor() const;
 };

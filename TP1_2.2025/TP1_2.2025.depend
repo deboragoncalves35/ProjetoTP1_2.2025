@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1762141629 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\capacidade.cpp
+	"Capacidade.h"
+	<stdexcept>
+
+1761852349 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\capacidade.h
+	<stdexcept>
+
+1762142197 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\cartao.cpp
+	"Cartao.h"
+	<cctype>
+
+1762142402 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\cartao.h
+	<string>
+	<stdexcept>
+
+1762142502 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\codigo.cpp
+	"Codigo.h"
+	<cctype>
+
+1762142512 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\codigo.h
+	<string>
+	<stdexcept>
+
+1762142977 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\data.cpp
+	"Data.h"
+	<sstream>
+	<vector>
+	<algorithm>
+	<cctype>
+
+1762142871 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\data.h
+	<string>
+	<stdexcept>
+
+1762144129 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\dinheiro.cpp
+	"Dinheiro.h"
+	<cctype>
+	<sstream>
+	<iomanip>
+
+1762144070 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\dinheiro.h
+	<string>
+	<stdexcept>
+
+1762146847 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\endereco.cpp
+	"Endereco.h"
+	<cctype>
+
+1762144890 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\endereco.h
+	<string>
+	<stdexcept>
+
+1762147087 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\nome.cpp
+	"Nome.h"
+	<cctype>
+
+1762146570 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\nome.h
+	<string>
+	<stdexcept>
+
+1762147411 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\numero.cpp
+	"Numero.h"
+	<cctype>
+
+1762147105 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\numero.h
+	<string>
+	<stdexcept>
+
+1762147585 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\ramal.cpp
+	"Ramal.h"
+	<cctype>
+
+1762147466 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\ramal.h
+	<string>
+	<stdexcept>
+
+1762147844 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\senha.cpp
+	"Senha.h"
+	<cctype>
+
+1762147693 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\senha.h
+	<string>
+	<stdexcept>
+
+1762148155 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\telefone.cpp
+	"Telefone.h"
+	<cctype>
+
+1762147978 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\telefone.h
+	<string>
+	<stdexcept>
+
+1762148091 source:c:\users\dell\onedrive\tp1_2.2025\tp1_2.2025\main.cpp
+	<iostream>
+	"..\scr\dominio\Telefone.h"
+
+1762146299 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\email.cpp
+	"Email.h"
+	<cctype>
+	<sstream>
+
+1762144590 c:\users\dell\onedrive\tp1_2.2025\scr\dominio\email.h
+	<string>
+	<stdexcept>
+

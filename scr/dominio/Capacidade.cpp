@@ -1,30 +1,32 @@
 #include "Capacidade.h"
+#include <stdexcept>
 
 /**
- * @brief Verifica se o valor informado está dentro do intervalo permitido.
- * @param valor Valor inteiro a ser validado.
- * @throw invalid_argument Se o valor não for 1, 2, 3 ou 4.
+ * @brief Valida a capacidade conforme as regras do dominio.
+ * @param valor Valor informado (1, 2, 3 ou 4).
+ * @throw invalid_argument Se o valor estiver fora do intervalo permitido.
  */
 void Capacidade::validar(int valor) {
     if (valor < 1 || valor > 4) {
-        throw invalid_argument("Capacidade inválida: deve ser 1, 2, 3 ou 4.");
+        throw invalid_argument("Capacidade invalida: deve ser 1, 2, 3 ou 4.");
     }
 }
 
 /**
- * @brief Define o valor da capacidade após validação.
- * @param valor Valor inteiro (1, 2, 3 ou 4).
- * @throw invalid_argument Se o valor estiver fora do intervalo permitido.
+ * @brief Define o valor apos validacao.
+ * @param valor Valor inteiro informado.
+ * @throw invalid_argument Se o valor for invalido.
  */
 void Capacidade::setValor(int valor) {
-    validar(valor);       // Chama a função de validação.
-    this->valor = valor;  // Atribui o valor se for válido.
+    validar(valor);
+    this->valor = valor;
 }
 
 /**
- * @brief Retorna o valor da capacidade armazenado.
+ * @brief Retorna o valor armazenado.
  * @return Valor inteiro da capacidade.
  */
 int Capacidade::getValor() const {
     return valor;
 }
+
