@@ -1,1 +1,10 @@
-C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Capacidade.cpp:15: warning: argument 'valor' from the argument list of Capacidade::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Capacidade.cpp:16: warning: argument 'valor' from the argument list of Capacidade::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Cartao.cpp:49: warning: argument 'cartao_string' from the argument list of Cartao::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Data.cpp:62: warning: argument 'data' from the argument list of Data::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Email.h:12: warning: Found unknown command '@dominio'
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Email.cpp:75: warning: argument 'email_string' from the argument list of Email::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Endereco.cpp:65: warning: argument 'endereco_string' from the argument list of Endereco::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Nome.cpp:67: warning: argument 'nome_string' from the argument list of Nome::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Ramal.cpp:32: warning: argument 'ramal_string' from the argument list of Ramal::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Senha.cpp:62: warning: argument 'senha_string' from the argument list of Senha::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Telefone.cpp:28: warning: argument 'telefone_string' from the argument list of Telefone::setValor has multiple @param documentation sections
