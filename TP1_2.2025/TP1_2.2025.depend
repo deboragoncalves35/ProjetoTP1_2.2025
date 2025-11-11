@@ -264,7 +264,7 @@
 	<string>
 	<stdexcept>
 
-1762611578 source:c:\users\anabe\projetotp1_2.2025\tp1_2.2025\main.cpp
+1762820798 source:c:\users\anabe\projetotp1_2.2025\tp1_2.2025\main.cpp
 	<iostream>
 	<string>
 	"entidade/Gerente.h"
@@ -272,4 +272,58 @@
 	"entidade/Quarto.h"
 	"entidade/Hospede.h"
 	"entidade/Reserva.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\gerente.cpp
+	"Gerente.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\gerente.h
+	"Pessoa.h"
+	"../dominio/Ramal.h"
+	"../dominio/Senha.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\pessoa.h
+	"../dominio/Nome.h"
+	"../dominio/Email.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\hospede.cpp
+	"Hospede.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\hospede.h
+	"Pessoa.h"
+	"../dominio/Endereco.h"
+	"../dominio/Cartao.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\hotel.cpp
+	"Hotel.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\hotel.h
+	"../dominio/Nome.h"
+	"../dominio/Endereco.h"
+	"../dominio/Telefone.h"
+	"../dominio/Codigo.h"
+	"Gerente.h"
+	"Quarto.h"
+	<vector>
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\quarto.h
+	"../dominio/Numero.h"
+	"../dominio/Capacidade.h"
+	"../dominio/Dinheiro.h"
+	"../dominio/Ramal.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\pessoa.cpp
+	"Pessoa.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\quarto.cpp
+	"Quarto.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\reserva.cpp
+	"Reserva.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\reserva.h
+	"../dominio/Data.h"
+	"../dominio/Dinheiro.h"
+	"../dominio/Codigo.h"
+	"Hospede.h"
+	"Quarto.h"
 
