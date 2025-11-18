@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['getvalor_0',['getValor',['../class_dinheiro.html#ac3f5a9d60307ea1be5a42a6e27c73091',1,'Dinheiro::getValor()'],['../class_cartao.html#a4456f94faa405be82ed34d2a0e5b0dd6',1,'Cartao::getValor()'],['../class_codigo.html#ae7dad73e010b3760cbd9310336c19aa2',1,'Codigo::getValor()'],['../class_data.html#a2d040be2799c23a0a3f745613a70bb43',1,'Data::getValor()'],['../class_senha.html#ae0b4d9dfac80da4dc9c4965a9648e6b5',1,'Senha::getValor()'],['../class_ramal.html#afd790b4b8c932c2b351fed696cc8da81',1,'Ramal::getValor()'],['../class_telefone.html#a8d9d6134cfb5ec929ab9b42d3be39f85',1,'Telefone::getValor()'],['../class_numero.html#a64bbe311f1537d8c40294fb201e34bf4',1,'Numero::getValor()'],['../class_capacidade.html#acc30fd56150d5569a426096521ac53c5',1,'Capacidade::getValor()'],['../class_endereco.html#ae16775fa39a1a2cc9d2e54a7a5086895',1,'Endereco::getValor()'],['../class_nome.html#ac8881234a0e2d0ddff4fb689ceb256eb',1,'Nome::getValor()'],['../class_email.html#a573b7a1f21085bbb13cf6ec4dd802ecc',1,'Email::getValor()']]],
-  ['getvalorformatado_1',['getValorFormatado',['../class_dinheiro.html#a8bec08ce2113d5e66de044dd6dac4e0c',1,'Dinheiro']]]
+  ['email_0',['Email',['../class_email.html',1,'']]],
+  ['email_1',['email',['../class_pessoa.html#a1560ad3e1f1327131518dce3ce09a2fe',1,'Pessoa']]],
+  ['endereco_2',['Endereco',['../class_endereco.html',1,'']]]
 ];

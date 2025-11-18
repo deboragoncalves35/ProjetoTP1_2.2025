@@ -1,3 +1,10 @@
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 #ifndef HOTEL_H_INCLUDED
 #define HOTEL_H_INCLUDED
 

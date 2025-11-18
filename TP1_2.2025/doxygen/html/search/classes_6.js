@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['telefone_0',['Telefone',['../class_telefone.html',1,'']]]
+  ['nome_0',['Nome',['../class_nome.html',1,'']]],
+  ['numero_1',['Numero',['../class_numero.html',1,'']]]
 ];

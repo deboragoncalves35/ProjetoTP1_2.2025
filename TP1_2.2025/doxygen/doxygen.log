@@ -4,7 +4,17 @@ C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Data.cpp:62: warning: argument 'da
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Email.h:12: warning: Found unknown command '@dominio'
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Email.cpp:75: warning: argument 'email_string' from the argument list of Email::setValor has multiple @param documentation sections
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Endereco.cpp:65: warning: argument 'endereco_string' from the argument list of Endereco::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/interfaces/IHospedeService.h:14: warning: argument 'hospede' of command @param is not found in the argument list of IHospedeService::adicionarHospede(const Hospede &)=0
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/interfaces/IHospedeService.h:26: warning: argument 'email' of command @param is not found in the argument list of IHospedeService::removerHospede(const Email &)=0
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/interfaces/IQuartoService.h:14: warning: argument 'quarto' of command @param is not found in the argument list of IQuartoService::adicionarQuarto(const Quarto &)=0
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/interfaces/IQuartoService.h:26: warning: argument 'numero' of command @param is not found in the argument list of IQuartoService::removerQuarto(const Numero &)=0
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/interfaces/IReservaService.h:14: warning: argument 'reserva' of command @param is not found in the argument list of IReservaService::adicionarReserva(const Reserva &)=0
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/interfaces/IReservaService.h:26: warning: argument 'codigo' of command @param is not found in the argument list of IReservaService::removerReserva(const Codigo &)=0
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Nome.cpp:67: warning: argument 'nome_string' from the argument list of Nome::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/servico/QuartoService.cpp:5: warning: argument 'quarto' from the argument list of QuartoService::adicionarQuarto has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/servico/QuartoService.cpp:28: warning: argument 'numero' from the argument list of QuartoService::removerQuarto has multiple @param documentation sections
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Ramal.cpp:32: warning: argument 'ramal_string' from the argument list of Ramal::setValor has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/servico/ReservaService.cpp:5: warning: argument 'reserva' from the argument list of ReservaService::adicionarReserva has multiple @param documentation sections
+C:/Users/Dell/OneDrive/TP1_2.2025/scr/servico/ReservaService.cpp:28: warning: argument 'codigo' from the argument list of ReservaService::removerReserva has multiple @param documentation sections
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Senha.cpp:62: warning: argument 'senha_string' from the argument list of Senha::setValor has multiple @param documentation sections
 C:/Users/Dell/OneDrive/TP1_2.2025/scr/dominio/Telefone.cpp:28: warning: argument 'telefone_string' from the argument list of Telefone::setValor has multiple @param documentation sections
