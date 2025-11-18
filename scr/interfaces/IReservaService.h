@@ -13,7 +13,11 @@ public:
      * @brief Adiciona uma nova reserva ao sistema.
      * @param reserva Instância de Reserva a ser adicionada.
      */
+<<<<<<< HEAD
     virtual void cadastrarReserva(const Reserva&) = 0;
+=======
+    virtual void adicionarReserva(const Reserva&) = 0;
+>>>>>>> 3413608363aa6f19fd855a1da7f418812a411103
 
     /**
      * @brief Retorna todas as reservas cadastradas.

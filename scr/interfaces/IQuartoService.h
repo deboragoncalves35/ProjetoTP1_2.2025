@@ -13,7 +13,11 @@ public:
      * @brief Adiciona um novo quarto ao sistema.
      * @param quarto Instância de Quarto a ser adicionada.
      */
+<<<<<<< HEAD
     virtual void cadastrarQuarto(const Quarto&) = 0;
+=======
+    virtual void adicionarQuarto(const Quarto&) = 0;
+>>>>>>> 3413608363aa6f19fd855a1da7f418812a411103
 
     /**
      * @brief Retorna a lista de quartos cadastrados.

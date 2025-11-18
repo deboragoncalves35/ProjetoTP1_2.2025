@@ -91,19 +91,14 @@
 	<string>
 	<stdexcept>
 
-1763482522 source:c:\users\dell\onedrive\tp1_2.2025\tp1_2.2025\main.cpp
+1762583110 source:c:\users\dell\onedrive\tp1_2.2025\tp1_2.2025\main.cpp
 	<iostream>
-	<locale>
-	"apresentacao/ApresentacaoHotel.h"
-	"apresentacao/ApresentacaoGerente.h"
-	"apresentacao/ApresentacaoHospede.h"
-	"apresentacao/ApresentacaoQuarto.h"
-	"apresentacao/ApresentacaoReserva.h"
-	"servico/HotelService.h"
-	"servico/GerenteService.h"
-	"servico/HospedeService.h"
-	"servico/QuartoService.h"
-	"servico/ReservaService.h"
+	<string>
+	"entidade/Gerente.h"
+	"entidade/Hotel.h"
+	"entidade/Quarto.h"
+	"entidade/Hospede.h"
+	"entidade/Reserva.h"
 
 1762146299 source:c:\users\dell\onedrive\tp1_2.2025\scr\dominio\email.cpp
 	"Email.h"
@@ -129,7 +124,7 @@
 1762582252 source:c:\users\dell\onedrive\tp1_2.2025\scr\entidade\hotel.cpp
 	"Hotel.h"
 
-1762887617 c:\users\dell\onedrive\tp1_2.2025\scr\entidade\hotel.h
+1762582232 c:\users\dell\onedrive\tp1_2.2025\scr\entidade\hotel.h
 	"../dominio/Nome.h"
 	"../dominio/Endereco.h"
 	"../dominio/Telefone.h"
@@ -168,146 +163,167 @@
 	"../dominio/Endereco.h"
 	"../dominio/Cartao.h"
 
-1763410356 source:c:\users\dell\onedrive\tp1_2.2025\scr\servico\gerenteservice.cpp
-	"GerenteService.h"
-
-1763443384 source:c:\users\dell\onedrive\tp1_2.2025\scr\servico\hospedeservice.cpp
-	"HospedeService.h"
-
-1763443507 source:c:\users\dell\onedrive\tp1_2.2025\scr\servico\quartoservice.cpp
-	"QuartoService.h"
-
-1763411570 source:c:\users\dell\onedrive\tp1_2.2025\scr\servico\reservaservice.cpp
-	"ReservaService.h"
-
-1763398629 source:c:\users\dell\onedrive\tp1_2.2025\scr\servico\hotelservice.cpp
-	"HotelService.h"
-
-1763399415 c:\users\dell\onedrive\tp1_2.2025\scr\servico\hotelservice.h
-	<vector>
-	<stdexcept>
-	"../interfaces/IHotelService.h"
-	"../entidade/Hotel.h"
-	"../dominio/Codigo.h"
-
-1763443468 c:\users\dell\onedrive\tp1_2.2025\scr\interfaces\iquartoservice.h
-	"../entidade/Quarto.h"
-	<vector>
-
-1762879820 c:\users\dell\onedrive\tp1_2.2025\scr\interfaces\ihotelservice.h
-	"../entidade/Hotel.h"
-	<vector>
-
-1763443361 c:\users\dell\onedrive\tp1_2.2025\scr\servico\hospedeservice.h
-	"../interfaces/IHospedeService.h"
-	<vector>
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\capacidade.cpp
+	"Capacidade.h"
 	<stdexcept>
 
-1763443036 c:\users\dell\onedrive\tp1_2.2025\scr\interfaces\ihospedeservice.h
-	"../entidade/Hospede.h"
-	<vector>
-
-1763484009 c:\users\dell\onedrive\tp1_2.2025\scr\servico\gerenteservice.h
-	<vector>
+1761855323 c:\users\anabe\projetotp1_2.2025\scr\dominio\capacidade.h
 	<stdexcept>
-	"../interfaces/IGerenteService.h"
-	"../entidade/Gerente.h"
-	"../dominio/Email.h"
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\cartao.cpp
+	"Cartao.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\cartao.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\codigo.cpp
+	"Codigo.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\codigo.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\data.cpp
+	"Data.h"
+	<sstream>
+	<vector>
+	<algorithm>
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\data.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\dinheiro.cpp
+	"Dinheiro.h"
+	<cctype>
+	<sstream>
+	<iomanip>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\dinheiro.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\email.cpp
+	"Email.h"
+	<cctype>
+	<sstream>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\email.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\endereco.cpp
+	"Endereco.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\endereco.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\nome.cpp
+	"Nome.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\nome.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\numero.cpp
+	"Numero.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\numero.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\ramal.cpp
+	"Ramal.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\ramal.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\senha.cpp
+	"Senha.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\senha.h
+	<string>
+	<stdexcept>
+
+1762179284 source:c:\users\anabe\projetotp1_2.2025\scr\dominio\telefone.cpp
+	"Telefone.h"
+	<cctype>
+
+1762179284 c:\users\anabe\projetotp1_2.2025\scr\dominio\telefone.h
+	<string>
+	<stdexcept>
+
+1762820798 source:c:\users\anabe\projetotp1_2.2025\tp1_2.2025\main.cpp
+	<iostream>
+	<string>
+	"entidade/Gerente.h"
+	"entidade/Hotel.h"
+	"entidade/Quarto.h"
+	"entidade/Hospede.h"
+	"entidade/Reserva.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\gerente.cpp
+	"Gerente.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\gerente.h
+	"Pessoa.h"
+	"../dominio/Ramal.h"
 	"../dominio/Senha.h"
 
-1763410313 c:\users\dell\onedrive\tp1_2.2025\scr\interfaces\igerenteservice.h
-	"../entidade/Gerente.h"
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\pessoa.h
+	"../dominio/Nome.h"
 	"../dominio/Email.h"
-	"../dominio/Senha.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\hospede.cpp
+	"Hospede.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\hospede.h
+	"Pessoa.h"
+	"../dominio/Endereco.h"
+	"../dominio/Cartao.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\hotel.cpp
+	"Hotel.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\hotel.h
+	"../dominio/Nome.h"
+	"../dominio/Endereco.h"
+	"../dominio/Telefone.h"
+	"../dominio/Codigo.h"
+	"Gerente.h"
+	"Quarto.h"
 	<vector>
 
-1763443485 c:\users\dell\onedrive\tp1_2.2025\scr\servico\quartoservice.h
-	<vector>
-	<stdexcept>
-	"../interfaces/IQuartoService.h"
-	"../entidade/Quarto.h"
-	"../dominio/Codigo.h"
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\quarto.h
 	"../dominio/Numero.h"
+	"../dominio/Capacidade.h"
+	"../dominio/Dinheiro.h"
+	"../dominio/Ramal.h"
 
-1763411099 c:\users\dell\onedrive\tp1_2.2025\scr\servico\reservaservice.h
-	<vector>
-	<stdexcept>
-	"../interfaces/IReservaService.h"
-	"../entidade/Reserva.h"
-	"../dominio/Codigo.h"
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\pessoa.cpp
+	"Pessoa.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\quarto.cpp
+	"Quarto.h"
+
+1762611578 source:c:\users\anabe\projetotp1_2.2025\scr\entidade\reserva.cpp
+	"Reserva.h"
+
+1762611578 c:\users\anabe\projetotp1_2.2025\scr\entidade\reserva.h
 	"../dominio/Data.h"
 	"../dominio/Dinheiro.h"
-
-1763411073 c:\users\dell\onedrive\tp1_2.2025\scr\interfaces\ireservaservice.h
-	"../entidade/Reserva.h"
-	<vector>
-
-1763484219 source:c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaogerente.cpp
-	"ApresentacaoGerente.h"
-
-1763446577 source:c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaoreserva.cpp
-	"ApresentacaoReserva.h"
-
-1763411893 source:c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaogeral.cpp
-	"ApresentacaoGeral.h"
-
-1763448146 source:c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaohotel.cpp
-	"ApresentacaoHotel.h"
-	<iostream>
-	<string>
-	<vector>
-
-1763483807 c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaohotel.h
-	"..\scr\interfaces\IHotelService.h"
-	"../entidade/Hotel.h"
-	<vector>
-	<iostream>
-
-1763448572 c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaogerente.h
-	"../interfaces/IGerenteService.h"
-	"../entidade/Gerente.h"
-	<iostream>
-	<vector>
-	<stdexcept>
-
-1763448589 c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaoreserva.h
-	"../interfaces/IReservaService.h"
-	"../entidade/Reserva.h"
-	<iostream>
-	<vector>
-	<stdexcept>
-
-1763411852 c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaogeral.h
-	<iostream>
-	<string>
-	"../servico/HotelService.h"
-	"../servico/GerenteService.h"
-	"../servico/HospedeService.h"
-	"../servico/QuartoService.h"
-	"../servico/ReservaService.h"
-	"ApresentacaoHotel.h"
-	"ApresentacaoGerente.h"
-	"ApresentacaoHospede.h"
-	"ApresentacaoQuarto.h"
-	"ApresentacaoReserva.h"
-
-1763448581 c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaohospede.h
-	"../interfaces/IHospedeService.h"
-	"../entidade/Hospede.h"
-	<iostream>
-	<vector>
-	<stdexcept>
-
-1763448543 c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaoquarto.h
-	"../interfaces/IQuartoService.h"
-	"../entidade/Quarto.h"
-	<iostream>
-	<vector>
-	<stdexcept>
-
-1763484356 source:c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaohospede.cpp
-	"ApresentacaoHospede.h"
-
-1763484376 source:c:\users\dell\onedrive\tp1_2.2025\scr\apresentacao\apresentacaoquarto.cpp
-	"ApresentacaoQuarto.h"
+	"../dominio/Codigo.h"
+	"Hospede.h"
+	"Quarto.h"
 
