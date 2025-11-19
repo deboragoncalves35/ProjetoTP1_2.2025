@@ -1,109 +1,107 @@
 @startuml
 
 skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+skinparam shadowing false
 
-' =======================
-'       CLASSES
-' =======================
+package "Entidades" {
 
-class Pessoa {
-    # nome : Nome
-    # email : Email
+    class Pessoa {
+        # nome : Nome
+        # email : Email
 
-    + setNome(valor : Nome) : void
-    + setEmail(valor : Email) : void
-    + getNome() : const Nome&
-    + getEmail() : const Email&
-}
+        + setNome(valor : Nome) : void
+        + setEmail(valor : Email) : void
+        + getNome() : const Nome&
+        + getEmail() : const Email&
+    }
 
-class Gerente {
-    - ramal : Ramal
-    - senha : Senha
+    class Gerente {
+        - ramal : Ramal
+        - senha : Senha
 
-    + setRamal(valor : Ramal) : void
-    + setSenha(valor : Senha) : void
-    + getRamal() : const Ramal&
-    + getSenha() : const Senha&
-}
+        + setRamal(valor : Ramal) : void
+        + setSenha(valor : Senha) : void
+        + getRamal() : const Ramal&
+        + getSenha() : const Senha&
+    }
 
-class Hospede {
-    - endereco : Endereco
-    - cartao : Cartao
+    class Hospede {
+        - endereco : Endereco
+        - cartao   : Cartao
 
-    + setEndereco(valor : Endereco) : void
-    + setCartao(valor : Cartao) : void
-    + getEndereco() : const Endereco&
-    + getCartao() : const Cartao&
-}
+        + setEndereco(valor : Endereco) : void
+        + setCartao(valor : Cartao) : void
+        + getEndereco() : const Endereco&
+        + getCartao() : const Cartao&
+    }
 
-class Quarto {
-    - numero : Numero
-    - capacidade : Capacidade
-    - diaria : Dinheiro
-    - ramal : Ramal
+    class Hotel {
+        - nome : Nome
+        - endereco : Endereco
+        - telefone : Telefone
+        - codigo : Codigo
+        - gerente : Gerente
+        - quartos : vector<Quarto>
 
-    + setNumero(valor : Numero) : void
-    + setCapacidade(valor : Capacidade) : void
-    + setDiaria(valor : Dinheiro) : void
-    + setRamal(valor : Ramal) : void
+        + setNome(valor : Nome) : void
+        + setEndereco(valor : Endereco) : void
+        + setTelefone(valor : Telefone) : void
+        + setCodigo(valor : Codigo) : void
 
-    + getNumero() : const Numero&
-    + getCapacidade() : const Capacidade&
-    + getDiaria() : const Dinheiro&
-    + getRamal() : const Ramal&
-}
+        + getNome() : const Nome&
+        + getEndereco() : const Endereco&
+        + getTelefone() : const Telefone&
+        + getCodigo() : const Codigo&
 
-class Hotel {
-    - nome : Nome
-    - endereco : Endereco
-    - telefone : Telefone
-    - codigo : Codigo
-    - gerente : Gerente
-    - quartos : vector<Quarto>
+        + setGerente(valor : Gerente) : void
+        + getGerente() : const Gerente&
+        + adicionarQuarto(quarto : Quarto) : void
+        + getQuartos() : const vector<Quarto>&
+    }
 
-    + setNome(valor : Nome) : void
-    + setEndereco(valor : Endereco) : void
-    + setTelefone(valor : Telefone) : void
-    + setCodigo(valor : Codigo) : void
+    class Quarto {
+        - numero : Numero
+        - capacidade : Capacidade
+        - diaria : Dinheiro
+        - ramal : Ramal
 
-    + getNome() : const Nome&
-    + getEndereco() : const Endereco&
-    + getTelefone() : const Telefone&
-    + getCodigo() : const Codigo&
+        + setNumero(valor : Numero) : void
+        + setCapacidade(valor : Capacidade) : void
+        + setDiaria(valor : Dinheiro) : void
+        + setRamal(valor : Ramal) : void
+        + getNumero() : const Numero&
+        + getCapacidade() : const Capacidade&
+        + getDiaria() : const Dinheiro&
+        + getRamal() : const Ramal&
+    }
 
-    + setGerente(valor : Gerente) : void
-    + getGerente() : const Gerente&
+    class Reserva {
+        - chegada : Data
+        - partida : Data
+        - valor : Dinheiro
+        - codigo : Codigo
+        - hospede : Hospede
+        - quarto : Quarto
 
-    + adicionarQuarto(quarto : Quarto) : void
-    + getQuartos() : const vector<Quarto>&
-}
+        + setChegada(valor : Data) : void
+        + setPartida(valor : Data) : void
+        + setValor(valor : Dinheiro) : void
+        + setCodigo(valor : Codigo) : void
 
-class Reserva {
-    - chegada : Data
-    - partida : Data
-    - valor : Dinheiro
-    - codigo : Codigo
-    - hospede : Hospede
-    - quarto : Quarto
-
-    + setChegada(valor : Data) : void
-    + setPartida(valor : Data) : void
-    + setValor(valor : Dinheiro) : void
-    + setCodigo(valor : Codigo) : void
-
-    + getChegada() : const Data&
-    + getPartida() : const Data&
-    + getValor() : const Dinheiro&
-    + getCodigo() : const Codigo&
-
-    + setHospede(valor : Hospede) : void
-    + setQuarto(valor : Quarto) : void
-    + getHospede() : const Hospede&
-    + getQuarto() : const Quarto&
+        + getChegada() : const Data&
+        + getPartida() : const Data&
+        + getValor() : const Dinheiro&
+        + getCodigo() : const Codigo&
+        + setHospede(valor : Hospede) : void
+        + setQuarto(valor : Quarto) : void
+        + getHospede() : const Hospede&
+        + getQuarto() : const Quarto&
+    }
 }
 
 ' =======================
-'      HERANÇAS
+'      HERANÇA
 ' =======================
 
 Pessoa <|-- Gerente
